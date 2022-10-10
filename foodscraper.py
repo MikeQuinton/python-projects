@@ -17,8 +17,8 @@ async def on_message(message):
     channel = client.get_channel(733404047045820458)
     counter = 0
     
-    url = 'https://www.reddit.com/r/FoodPorn.json'
-    request = Request(url, headers = {'User-Agent' : 'Food Porn image scraper bot'})
+    url = 'https://www.reddit.com/r/FoodP***.json'
+    request = Request(url, headers = {'User-Agent' : 'Food P*** image scraper bot'})
     info = urlopen(request).read()
     data = json.loads(info)
     
@@ -50,7 +50,7 @@ async def count():
     
     if channel is not None:
         
-        url = 'https://www.reddit.com/r/FoodPorn.json'
+        url = 'https://www.reddit.com/r/FoodP***.json'
         request = Request(url, headers = {'User-Agent' : 'Food Porn image scraper bot'})
         info = urlopen(request).read()
         data = json.loads(info)
